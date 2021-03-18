@@ -17,13 +17,13 @@
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 20rem ;
+    padding: 0.3rem 20rem ;
 }
 
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1.7rem 1.3rem;
+    padding: 1.2rem 1.3rem;
     color: var(--title-color);
 }
 
@@ -32,6 +32,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    /* border-bottom: 4px dashed rgb(129, 129, 184); */
+    font-weight: bold;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
@@ -67,9 +69,9 @@
 
 .site-main .site-banner .site-title h1{
     /* Removed the h3 before this so ai added the padding */
-    padding-top: 25%;
-    /* font-size: 5rem; */
-    font-size: 3rem;
+    padding-top: 30%;
+    font-size: 5rem;
+    /* font-size: 3rem; */
 }
 
 .site-main .site-banner .site-title h4{
@@ -292,7 +294,7 @@
 .site-main .subscribe-us-area .subscribe{
     background: url(../img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
-    margin: 3rem auto;
+    /* margin: 3rem auto; */
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{
@@ -333,7 +335,7 @@ footer.footer-area{
     background: url(../img/footer-bg.png) no-repeat;
 }
 
-footer.footer-area .social h5{
+/* footer.footer-area .social h5{
     font: normal 500 23px/ 30px var(--roboto);
 }
 
@@ -345,7 +347,7 @@ footer.footer-area .social a > i{
 
 footer.footer-area .social a:hover > i{
     color: var(--primary-color);
-}
+} */
 
 
 /* End Footer */ 
